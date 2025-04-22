@@ -8,8 +8,9 @@ export const About = () => {
     ]
 
     return <section id="about"
-    className="min-h-screen flex items-center justify-center">
+    className="min-h-screen flex items-center justify-center py-20">
         <div className="text-center z-10 px-4 max-w-5xl mx-auto">
+            <img src="/images/selfie.png" alt="Harry Kim" className="w-32 h-32 object-cover rounded-full shadow-md mx-auto mb-6 ring-2 ring-cyan-400"></img>
             <h1 className="text-3xl font-bold mb-8 text-cyan-500">About Me</h1>
             <p className="text-gray-400 max-w-lg mx-auto">
                 I am a hardworking, intellectual individual studying Software Systems at Simon Fraser University. I'm interested in software development, and have experience in languages like C++ and Java, and am learning some web design and React.
