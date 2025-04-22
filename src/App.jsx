@@ -6,6 +6,7 @@ import './App.css'
 import { Navbar } from './components/NavBar'
 import { Home } from './components/sections/Home'
 import { Contacts } from './components/sections/Contacts'
+import { About } from './components/sections/About'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <div className={`min-h-screen bg-black text-gray-100`}>
           <Navbar />
           <Home />
+          <About />
           <Contacts />
         </div>
     </>
