@@ -8,6 +8,7 @@ export const Projects = () => {
             <h1 className="text-3xl font-bold mb-8 text-cyan-500 text-center">Projects</h1>
             <div className="p-6 border rounded-border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow[0_2px_8px_rgba(59,130,2246,0.2)]">
                 <h3>Rollcall</h3>
+                <img src="/images/RollCall%20screenshot.png" alt="A screenshot of the RollCall application." class="w-128 h-auto rounded-lg shadow-md" />
                 <p className="text-gray-400 mb-4">
                     An attendance management application for after school programs.
                 </p>
