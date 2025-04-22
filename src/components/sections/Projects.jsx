@@ -24,10 +24,14 @@ export const Projects = () => {
                         </span>
                     ))}
                 </div>
-                <div className="flex justify-between items-center">
+                <div className="flex gap-6 items-center">
                     <a href="https://final-project-20-waves.vercel.app/login"
                     className="text-blue-400 hover:text-blue-300 transition-colors">
                         Project Link →
+                    </a>
+                    <a href="https://drive.google.com/file/d/1Afc_rQp3xi14XXPany3SbFctcGm9uyR4/view"
+                    className="text-blue-400 hover:text-blue-300 transition-colors">
+                        Project Video →
                     </a>
                 </div>
             </div>
@@ -49,10 +53,14 @@ export const Projects = () => {
                         </span>
                     ))}
                 </div>
-                <div className="flex justify-between items-center">
+                <div className="flex gap-6 items-center">
                     <a href="https://engineereng.itch.io/cybercision"
                     className="text-blue-400 hover:text-blue-300 transition-colors">
                         Project Link →
+                    </a>
+                    <a href="https://github.com/engineereng/cybercision"
+                    className="text-blue-400 hover:text-blue-300 transition-colors">
+                        Github Link →
                     </a>
                 </div>
             </div>
